@@ -13,7 +13,8 @@ dependencies:
 
   get_it: ^7.4.0
   servicelocator:
-    path: ../../.
+    git:
+      url: git@github.com:rasyadh/servicelocator.git
 
 dev_dependencies:
   flutter_test:

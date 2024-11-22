@@ -1,0 +1,25 @@
+name: servicelocator
+description: Service locator lib for dependency injection
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  collection: ^1.15.0
+  async: ^2.8.2
+  lazy_evaluation: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  mocktail: ^0.3.0
+  
+  servicelocator_get_it:
+    path: impl/servicelocator_get_it
